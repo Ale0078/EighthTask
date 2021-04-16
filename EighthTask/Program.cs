@@ -1,14 +1,9 @@
-﻿using System;
-using NLog;
+﻿using static System.Console;
 
-namespace EighthTask
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            LogManager.GetCurrentClassLogger().Info("Info");
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+using EighthTask;
+
+Startup projectStart = new Startup();
+
+projectStart.Start(args);
+
+ReadKey();

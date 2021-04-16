@@ -1,0 +1,36 @@
+2021-04-16 12:50:59.1148 | INFO | EighthTask.Program | Info
+2021-04-16 13:11:40.6441 | INFO | EighthTask.Startup | You must enter two number from 0 to 1000000 and these numbers must be like int.
+First number is max range but second number is min range
+2021-04-16 13:11:40.6643 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:11:54.2429 | INFO | EighthTask.Startup | You must enter two number from 0 to 1000000 and these numbers must be like int.
+First number is max range but second number is min range
+2021-04-16 13:11:54.2694 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:12:07.3307 | INFO | LibToTasks.Validation.Transformator | Value 0 can be converted to System.Int32
+2021-04-16 13:12:07.3671 | INFO | LibToTasks.Validation.Transformator | Value 45 can be converted to System.Int32
+2021-04-16 13:12:07.3671 | INFO | LibToTasks.Validation.Validator | Value 0 passed checking
+2021-04-16 13:12:07.3671 | INFO | EighthTask.Startup | You must enter two number from 0 to 1000000 and these numbers must be like int.
+First number is max range but second number is min range
+2021-04-16 13:12:07.3671 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:12:18.6775 | INFO | LibToTasks.Validation.Transformator | Value 45 can be converted to System.Int32
+2021-04-16 13:12:18.7011 | INFO | LibToTasks.Validation.Transformator | Value 0 can be converted to System.Int32
+2021-04-16 13:12:18.7011 | INFO | LibToTasks.Validation.Validator | Value 45 passed checking
+2021-04-16 13:12:18.7011 | INFO | EighthTask.Startup | You must enter two number from 0 to 1000000 and these numbers must be like int.
+First number is max range but second number is min range
+2021-04-16 13:12:18.7011 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:13:43.6148 | INFO | LibToTasks.Validation.Transformator | Value 45 can be converted to System.Int32
+2021-04-16 13:13:43.6399 | INFO | LibToTasks.Validation.Transformator | Value 0 can be converted to System.Int32
+2021-04-16 13:13:43.6399 | INFO | LibToTasks.Validation.Validator | Value 45 passed checking
+2021-04-16 13:13:43.6399 | INFO | LibToTasks.Validation.Validator | Value 0 passed checking
+2021-04-16 13:13:43.6399 | INFO | EighthTask.Controllers.FibonacciController | Model was setted (FibonacciController.SetModel)
+2021-04-16 13:13:43.6399 | INFO | EighthTask.Controllers.FibonacciController | Sequence was outputted (FibonacciController.Display)
+2021-04-16 13:13:43.6399 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:13:53.5841 | INFO | EighthTask.Startup | You must enter two number from 0 to 1000000 and these numbers must be like int.
+First number is max range but second number is min range
+2021-04-16 13:13:53.6038 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:15:39.1366 | INFO | LibToTasks.Validation.Transformator | Value 100000 can be converted to System.Int32
+2021-04-16 13:15:39.1605 | INFO | LibToTasks.Validation.Transformator | Value 3456 can be converted to System.Int32
+2021-04-16 13:15:39.1605 | INFO | LibToTasks.Validation.Validator | Value 100000 passed checking
+2021-04-16 13:15:39.1605 | INFO | LibToTasks.Validation.Validator | Value 3456 passed checking
+2021-04-16 13:15:39.1605 | INFO | EighthTask.Controllers.FibonacciController | Model was setted (FibonacciController.SetModel)
+2021-04-16 13:15:39.1605 | INFO | EighthTask.Controllers.FibonacciController | Sequence was outputted (FibonacciController.Display)
+2021-04-16 13:15:39.1605 | INFO | EighthTask.Startup | Program is finalized
