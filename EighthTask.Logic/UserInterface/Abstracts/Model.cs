@@ -6,6 +6,6 @@ namespace EighthTask.Logic.UserInterface.Abstracts
     {
         public ISequence Sequence { get; set; }
 
-        public abstract void SetSequence();
+        public abstract void SetSequence(ISequence sequence);
     }
 }
