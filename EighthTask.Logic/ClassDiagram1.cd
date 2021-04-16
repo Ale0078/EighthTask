@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EighthTask.Logic.Components.FibonacciSequence" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACBAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\FibonacciSequence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EighthTask.Logic.Components.Builders.FibonacciSequenceBuilder" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAACAAAAA=</HashCode>
+      <FileName>Components\Builders\FibonacciSequenceBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EighthTask.Logic.UserInterface.Abstracts.Controller">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABACAAAAAAAAAAABQAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>UserInterface\Abstracts\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SequenceCreater" />
+      <Property Name="ViewToDisplay" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EighthTask.Logic.UserInterface.Abstracts.Model">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>UserInterface\Abstracts\Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sequence" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EighthTask.Logic.UserInterface.Abstracts.View">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserInterface\Abstracts\View.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ViewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="EighthTask.Logic.Components.Builders.Interfaces.ISequenceBuilder" Collapsed="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Builders\Interfaces\ISequenceBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EighthTask.Logic.Components.Interfaces.ISequence" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Interfaces\ISequence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
