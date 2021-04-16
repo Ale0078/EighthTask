@@ -14,7 +14,7 @@ namespace EighthTask.Logic.UserInterface.Abstracts
         }
 
         public abstract void Display();
-        public abstract void SetModel(int maxSequenceRange, int minSequenceRange);
+        public abstract void SetModel();
         public abstract void SetSequenceCreater(ISequenceBuilder sequenceCreater);
     }
 }
