@@ -34,3 +34,17 @@ First number is max range but second number is min range
 2021-04-16 13:15:39.1605 | INFO | EighthTask.Controllers.FibonacciController | Model was setted (FibonacciController.SetModel)
 2021-04-16 13:15:39.1605 | INFO | EighthTask.Controllers.FibonacciController | Sequence was outputted (FibonacciController.Display)
 2021-04-16 13:15:39.1605 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:45:00.3595 | INFO | LibToTasks.Validation.Transformator | Value 45 can be converted to System.Int32
+2021-04-16 13:45:00.3827 | INFO | LibToTasks.Validation.Transformator | Value 0 can be converted to System.Int32
+2021-04-16 13:45:00.3827 | INFO | LibToTasks.Validation.Validator | Value 45 passed checking
+2021-04-16 13:45:00.3827 | INFO | LibToTasks.Validation.Validator | Value 0 passed checking
+2021-04-16 13:45:00.3896 | INFO | EighthTask.Controllers.FibonacciController | Model was setted (FibonacciController.SetModel)
+2021-04-16 13:45:00.3896 | INFO | EighthTask.Controllers.FibonacciController | Sequence was outputted (FibonacciController.Display)
+2021-04-16 13:45:00.3896 | INFO | EighthTask.Startup | Program is finalized
+2021-04-16 13:45:59.4416 | INFO | LibToTasks.Validation.Transformator | Value 45 can be converted to System.Int32
+2021-04-16 13:45:59.4656 | INFO | LibToTasks.Validation.Transformator | Value 0 can be converted to System.Int32
+2021-04-16 13:45:59.4674 | INFO | LibToTasks.Validation.Validator | Value 45 passed checking
+2021-04-16 13:45:59.4674 | INFO | LibToTasks.Validation.Validator | Value 0 passed checking
+2021-04-16 13:45:59.4674 | INFO | EighthTask.Controllers.FibonacciController | Model was setted (FibonacciController.SetModel)
+2021-04-16 13:45:59.4674 | INFO | EighthTask.Controllers.FibonacciController | Sequence was outputted (FibonacciController.Display)
+2021-04-16 13:45:59.4674 | INFO | EighthTask.Startup | Program is finalized

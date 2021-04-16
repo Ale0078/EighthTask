@@ -24,7 +24,7 @@ namespace EighthTask.Controllers
 
         public override void SetModel()
         {
-            ViewToDisplay.ViewModel.SetSequence(SequenceCreater.Create());
+            ViewToDisplay.ViewModel = SequenceCreater.Create();
 
             _logger.Info("Model was setted (FibonacciController.SetModel)");
         }

@@ -1,13 +1,10 @@
-﻿namespace EighthTask.Logic.UserInterface.Abstracts
+﻿using EighthTask.Logic.Components.Interfaces;
+
+namespace EighthTask.Logic.UserInterface.Abstracts
 {
     public abstract class View
     {
-        public Model ViewModel { get; }
-
-        public View(Model viewModel) 
-        {
-            ViewModel = viewModel;
-        }
+        public ISequence ViewModel { get; set; }
 
         public abstract void Display();
     }

@@ -6,13 +6,9 @@ namespace EighthTask.Views
 {
     public class FibonacciView : View
     {
-        public FibonacciView(Model viewModel) : base(viewModel) 
-        {
-        }
-
         public override void Display()
         {
-            foreach (var number in ViewModel.Sequence)
+            foreach (var number in ViewModel)
             {
                 Write("{0}, ", number);
             }

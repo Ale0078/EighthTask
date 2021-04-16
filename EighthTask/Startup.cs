@@ -4,7 +4,6 @@ using NLog;
 using static System.Console;
 
 using EighthTask.Controllers;
-using EighthTask.Models;
 using EighthTask.Views;
 using EighthTask.Logic.Components.Builders;
 using EighthTask.Logic.UserInterface.Abstracts;
@@ -54,7 +53,7 @@ namespace EighthTask
                 return;
             }
 
-            Controller fibonacciController = new FibonacciController(new FibonacciView(new FibonacciViewModel()),
+            Controller fibonacciController = new FibonacciController(new FibonacciView(),
                 sequenceCreater: new FibonacciSequenceBuilder(range[0], range[1]));
 
             fibonacciController.SetModel();
