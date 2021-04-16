@@ -1,4 +1,5 @@
 ﻿using System;
+using NLog;
 
 namespace EighthTask
 {
@@ -6,6 +7,7 @@ namespace EighthTask
     {
         static void Main(string[] args)
         {
+            LogManager.GetCurrentClassLogger().Info("Info");
             Console.WriteLine("Hello World!");
         }
     }
