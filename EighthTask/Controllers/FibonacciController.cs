@@ -1,5 +1,6 @@
 ﻿using NLog;
 
+using EighthTask.Messages;
 using EighthTask.Logic.UserInterface.Abstracts;
 using EighthTask.Logic.Components.Builders.Interfaces;
 
@@ -19,21 +20,21 @@ namespace EighthTask.Controllers
         {
             ViewToDisplay.Display();
 
-            _logger.Info("Sequence was outputted (FibonacciController.Display)");
+            _logger.Info(LogMessage.DISPLAY);
         }
 
         public override void SetModel()
         {
             ViewToDisplay.ViewModel = SequenceCreater.Create();
 
-            _logger.Info("Model was setted (FibonacciController.SetModel)");
+            _logger.Info(LogMessage.SET_MODEL);
         }
 
         public override void SetSequenceCreater(ISequenceBuilder sequenceCreater)
         {
             SequenceCreater = sequenceCreater;
 
-            _logger.Info("New SequenceCreater was setted (FibonacciController.SetSequenceCreater)");
+            _logger.Info(LogMessage.SET_SEQUENCE_CREATER);
         }
     }
 }

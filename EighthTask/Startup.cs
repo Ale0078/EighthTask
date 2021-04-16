@@ -3,6 +3,7 @@ using NLog;
 
 using static System.Console;
 
+using EighthTask.Messages;
 using EighthTask.Controllers;
 using EighthTask.Views;
 using EighthTask.Logic.Components.Builders;
@@ -59,7 +60,7 @@ namespace EighthTask
             fibonacciController.SetModel();
             fibonacciController.Display();
 
-            _logger.Info("Program is finalized");
+            _logger.Info(LogMessage.FINALIZE);
         }
 
         private int[] GetRange(string[] mainArgument) 
@@ -106,13 +107,11 @@ namespace EighthTask
 
         private void GetMessage() 
         {
-            WriteLine("You must enter two number from 0 to 1000000 and these numbers must be like int.\n " +
-                "First number is max range but second number is min range");
+            WriteLine(UserMessage.ERROR);
 
-            _logger.Info("You must enter two number from 0 to 1000000 and these numbers must be like int.\n" +
-                "First number is max range but second number is min range");
+            _logger.Info(UserMessage.ERROR);
 
-            _logger.Info("Program is finalized");
+            _logger.Info(LogMessage.FINALIZE);
         }
     }
 }
